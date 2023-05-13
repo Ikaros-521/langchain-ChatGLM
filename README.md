@@ -180,6 +180,15 @@ Web UI 可以实现如下功能：
 >4. 引入更多的评估指标:可以引入更多的评估指标来评估模型的表现,从而发现 ChatGLM-6B 存在的不足和局限性。
 >5. 改进模型架构:可以改进 ChatGLM-6B 的模型架构,提高模型的性能和表现。例如,可以使用更大的神经网络或者改进的卷积神经网络结构。
 
+### chatglm-6b-int4
+导入：chatglm-6b的README.md（删除了除去 介绍的所有内容）  
+提问：chatglm-6b 的局限性具体体现在哪里，如何实现改进  
+![image](https://github.com/Ikaros-521/langchain-ChatGLM/assets/40910637/bd4c5c4c-c808-4e79-afc3-9250a8375ba9)
+
+导入：chatglm-6b的README.md（删除了除去 介绍、局限性 的所有内容）  
+提问：chatglm-6b 的局限性具体体现在哪里，如何实现改进  
+![image](https://github.com/Ikaros-521/langchain-ChatGLM/assets/40910637/db5b3bb9-bf1c-4dde-91ea-655ce754aac3)
+
 ## 路线图
 
 - [ ] Langchain 应用
