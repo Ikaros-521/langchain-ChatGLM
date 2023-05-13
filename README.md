@@ -95,6 +95,12 @@ vue前端需要node18环境
 
 在开始执行 Web UI 或命令行交互前，请先检查 [configs/model_config.py](configs/model_config.py) 中的各项模型参数设计是否符合需求。
 
+修改加载的模型，默认选择的chatglm-6b
+```
+# LLM model name
+LLM_MODEL = "chatglm-6b"
+```
+
 ### 3. 执行脚本体验 Web UI 或命令行交互
 
 > 注：鉴于环境部署过程中可能遇到问题，建议首先测试命令行脚本。建议命令行脚本测试可正常运行后再运行 Web UI。
